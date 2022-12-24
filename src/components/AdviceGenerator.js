@@ -19,7 +19,7 @@ function AdviceGenerator(){
             <h1 className="text-[#53FFAA] text-[11px] font-extrabold tracking-[3.46px] uppercase mb-[24px]">Advice #{adviceID}</h1>
             <section className="text-[#CEE3E9] lg:max-w-[444px] text-[24px] font-extrabold mb-[24px] text-center">{ advice }</section>
             <Divider />
-            <Button tailwindButton={"bg-[#53FFAA] p-4 rounded-full absolute bottom-[-32px] hover:shadow-[0_0px_40px_-5px_#53FFAA]"}
+            <Button tailwindButton={"bg-[#53FFAA] p-4 rounded-full absolute bottom-[-32px] hover:shadow-[0_0px_40px_-5px_#53FFAA] select-none"}
              tailwindWrapper={"flex justify-center items-center"}
              onClick={handleClick}>
                 <img src={DiceIcon} alt="dice icon"></img>

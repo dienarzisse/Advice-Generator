@@ -3,7 +3,7 @@ import DividerImageDesktop from "../images/pattern-divider-desktop.svg"
 
 function Divider(){
     return (
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center min-w-100">
             <hr className="bg-[#4F5D74]"/>
             <picture>
                 <source srcSet={DividerImageMobile}
